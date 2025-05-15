@@ -17,7 +17,7 @@ pipeline{
 		}
 		stage('Deploy'){
 			steps{
-				sh "cp target/mavtom.war /opt/tomcat/webapps"
+				sh "cp target/mavtom-1.0-SNAPSHOT.war /opt/tomcat/webapps"
 			}
 		
 		}
